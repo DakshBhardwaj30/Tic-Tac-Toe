@@ -1,0 +1,6 @@
+
+##### 📄 `.gitignore`
+```gitignore
+*.pyc
+__pycache__/
+.kivy/
