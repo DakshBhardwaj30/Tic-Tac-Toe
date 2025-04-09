@@ -1,4 +1,4 @@
-# Final Revised Tic Tac Toe Code with Leaderboard and Custom Player Names
+
 
 from kivy.app import App
 from kivy.uix.screenmanager import ScreenManager, Screen
@@ -17,7 +17,7 @@ Window.clearcolor = (0.1, 0.1, 0.1, 1)
 
 LEADERBOARD_FILE = "leaderboard.json"
 
-# Ensure leaderboard exists
+
 def initialize_leaderboard():
     if not os.path.exists(LEADERBOARD_FILE):
         leaderboard = {"easy": 0, "medium": 0, "hard": 0}
